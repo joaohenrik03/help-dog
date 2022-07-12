@@ -25,10 +25,10 @@ export function App() {
           </p>
 
           <div className='flex flex-col items-center justify-center gap-6 lg:flex-row lg:justify-start'>
-            <a href="#" className='text-lg bg-purple-500 px-12 py-3 rounded-[40px] text-white max-w-[180px] font-rubik'>
+            <a href="#" className='text-lg bg-purple-500 px-12 py-3 rounded-[40px] text-white max-w-[180px] font-rubik hover:bg-purple-400 transition-colors'>
               Contribuir
             </a>
-            <a href="#" className='text-lg text-purple-600 font-rubik'>
+            <a href="#" className='text-lg text-purple-600 font-rubik hover:text-purple-400 transition-colors'>
               Entrar em contato
             </a>
           </div>
