@@ -8,6 +8,7 @@ module.exports = {
         'rubik': ['Rubik', 'sans-serif'],
       },
       colors: {
+        'purple-400': '#8F66FF',
         'purple-500': '#713FFF',
         'purple-600': '#3C184E',
       }
