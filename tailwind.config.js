@@ -6,6 +6,10 @@ module.exports = {
       fontFamily: {
         'merriweather': ['Merriweather', 'serif'],
         'rubik': ['Rubik', 'sans-serif'],
+      },
+      colors: {
+        'purple-500': '#713FFF',
+        'purple-600': '#3C184E',
       }
     },
   },
