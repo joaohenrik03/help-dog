@@ -1,4 +1,5 @@
 import { Logo } from './components/Logo';
+import DogBgImg from './assets/dog-bg.png';
 
 export function App() {
   return (
@@ -33,7 +34,9 @@ export function App() {
           </div>
         </main>
       </div>
-      <div>
+
+      <div className='min-w-screen flex justify-end'>
+        <img src={DogBgImg} alt="Foto de um cachorro com um monte de ração na sua frente" className='max-w-[400px] block' />
       </div>
     </div>
   )
